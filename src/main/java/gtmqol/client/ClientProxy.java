@@ -1,6 +1,6 @@
-package com.example.examplemod.client;
+package gtmqol.client;
 
-import com.example.examplemod.common.CommonProxy;
+import gtmqol.common.CommonProxy;
 
 import com.epimorphismmc.monomorphism.proxy.base.IClientProxyBase;
 

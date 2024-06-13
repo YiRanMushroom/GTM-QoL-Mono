@@ -14,6 +14,10 @@ dependencies {
 
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
+    // Adds KFF as dependency and Kotlin libs (use the variant matching your mod loader)
+    // FORGE
+    implementation 'thedarkcolour:kotlinforforge:4.10.0'
+
     // tests
     testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.2'
     testImplementation 'io.javalin:javalin:5.4.2'

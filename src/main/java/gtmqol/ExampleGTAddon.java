@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package gtmqol;
 
 import com.epimorphismmc.monomorphism.MOGTAddon;
 

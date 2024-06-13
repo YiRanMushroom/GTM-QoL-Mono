@@ -1,4 +1,4 @@
-package com.example.examplemod.data;
+package gtmqol.data;
 
 import com.epimorphismmc.monomorphism.datagen.lang.MOLangProvider;
 

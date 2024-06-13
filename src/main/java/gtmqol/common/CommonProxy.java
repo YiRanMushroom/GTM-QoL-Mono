@@ -1,6 +1,6 @@
-package com.example.examplemod.common;
+package gtmqol.common;
 
-import com.example.examplemod.ExampleMod;
+import gtmqol.ExampleMod;
 
 import com.epimorphismmc.monomorphism.proxy.base.ICommonProxyBase;
 

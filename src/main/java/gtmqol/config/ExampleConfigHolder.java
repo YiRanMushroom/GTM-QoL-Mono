@@ -1,6 +1,6 @@
-package com.example.examplemod.config;
+package gtmqol.config;
 
-import com.example.examplemod.ExampleMod;
+import gtmqol.ExampleMod;
 
 import dev.toma.configuration.Configuration;
 import dev.toma.configuration.config.Config;

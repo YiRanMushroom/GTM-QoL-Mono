@@ -1,9 +1,9 @@
-package com.example.examplemod;
+package gtmqol;
 
-import com.example.examplemod.client.ClientProxy;
-import com.example.examplemod.common.CommonProxy;
-import com.example.examplemod.config.ExampleConfigHolder;
-import com.example.examplemod.data.ExampleLangHandler;
+import gtmqol.client.ClientProxy;
+import gtmqol.common.CommonProxy;
+import gtmqol.config.ExampleConfigHolder;
+import gtmqol.data.ExampleLangHandler;
 
 import com.epimorphismmc.monomorphism.MOMod;
 import com.epimorphismmc.monomorphism.datagen.MOProviderTypes;
