@@ -1,12 +1,12 @@
 package gtmqol.config;
 
-import gtmqol.ExampleMod;
+import gtmqol.GTMQoL;
 
 import dev.toma.configuration.Configuration;
 import dev.toma.configuration.config.Config;
 import dev.toma.configuration.config.format.ConfigFormats;
 
-@Config(id = ExampleMod.MODID)
+@Config(id = GTMQoL.MODID)
 public class ExampleConfigHolder {
     public static ExampleConfigHolder INSTANCE;
 

@@ -21,15 +21,15 @@ import net.minecraftforge.fml.common.Mod;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(ExampleMod.MODID)
-public class ExampleMod extends MOMod<CommonProxy> {
+@Mod(GTMQoL.MODID)
+public class GTMQoL extends MOMod<CommonProxy> {
     // Define mod id in a common place for everything to reference
-    public static final String MODID = "examplemod";
-    public static final String NAME = "Example Mod";
+    public static final String MODID = "gtmqol";
+    public static final String NAME = "GregTech Modern Quality of Life";
 
-    public static ExampleMod instance;
+    public static GTMQoL instance;
 
-    public ExampleMod() {
+    public GTMQoL() {
         super();
     }
 

@@ -8,7 +8,7 @@ import com.gregtechceu.gtceu.api.addon.GTAddon;
 public class ExampleGTAddon extends MOGTAddon {
 
     public ExampleGTAddon() {
-        super(ExampleMod.MODID);
+        super(GTMQoL.MODID);
     }
 
     @Override
