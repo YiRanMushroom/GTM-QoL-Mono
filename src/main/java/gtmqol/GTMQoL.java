@@ -2,7 +2,7 @@ package gtmqol;
 
 import gtmqol.client.ClientProxy;
 import gtmqol.common.CommonProxy;
-import gtmqol.config.ExampleConfigHolder;
+import gtmqol.config.ConfigHolder;
 import gtmqol.data.ExampleLangHandler;
 
 import com.epimorphismmc.monomorphism.MOMod;
@@ -46,7 +46,7 @@ public class GTMQoL extends MOMod<CommonProxy> {
     @Override
     protected void onModConstructed() {
         instance = this;
-        ExampleConfigHolder.init();
+        ConfigHolder.init();
     }
 
     @Override
