@@ -1,13 +1,17 @@
 package gtmqol.common;
 
-import gtmqol.GTMQoL;
-
 import com.epimorphismmc.monomorphism.proxy.base.ICommonProxyBase;
+
+import gtmqol.mod.GTMQoL;
+
+import java.util.Objects;
 
 public class CommonProxy implements ICommonProxyBase {
 
     public CommonProxy() {
-        GTMQoL.logger().info("ExampleMod's Initialization Completed!");
+        Objects.requireNonNull(
+                        Objects.requireNonNull(GTMQoL.Companion.getINSTANCE()).getLogger())
+                .info("ExampleMod's Initialization Completed!");
     }
 
     @Override

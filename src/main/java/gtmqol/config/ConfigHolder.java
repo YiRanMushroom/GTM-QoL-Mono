@@ -1,11 +1,10 @@
 package gtmqol.config;
 
-import dev.toma.configuration.config.Configurable;
-import gtmqol.GTMQoL;
-
 import dev.toma.configuration.Configuration;
 import dev.toma.configuration.config.Config;
+import dev.toma.configuration.config.Configurable;
 import dev.toma.configuration.config.format.ConfigFormats;
+import gtmqol.mod.GTMQoL;
 
 @Config(id = GTMQoL.MODID)
 public class ConfigHolder {
